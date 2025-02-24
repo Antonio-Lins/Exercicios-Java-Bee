@@ -4,13 +4,13 @@ public class exercicio3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        float numero = scanner.nextFloat();
+        double raio = scanner.nextDouble();
 
-        double numero1 = 3.14159;
+        double pi = 3.14159;
 
-        float circulo = numero * (numero * numero);
+        double area = pi * raio * raio;
 
-        System.out.println("A="+ circulo);
+        System.out.printf("A=%.4f",area);
 
         scanner.close();
     }
