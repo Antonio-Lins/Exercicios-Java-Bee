@@ -14,4 +14,4 @@ public class exercicio4 {
          scanner.close();
     }
     
-}
+} 
