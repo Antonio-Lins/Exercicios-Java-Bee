@@ -11,7 +11,7 @@ public class exercicio4 {
 
         System.out.println("SOMA = " +soma);
 
-        scanner.close();
+         scanner.close();
     }
     
 }
