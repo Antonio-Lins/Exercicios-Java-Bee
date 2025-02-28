@@ -13,6 +13,6 @@ public class exercicio7 {
         System.out.printf("MEDIA = %.1f%n",MediaFinal);
 
         scanner.close();
-    }
+    } 
     
 }
