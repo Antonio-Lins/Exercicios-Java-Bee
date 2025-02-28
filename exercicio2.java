@@ -16,7 +16,7 @@ public class exercicio2 {
     System.out.println("" + soma);
 
 
-
+ 
         scanner.close(); // fecha o scanner
     }
 }
