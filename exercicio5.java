@@ -13,5 +13,5 @@ public class exercicio5 {
     System.out.println("PROD = " +multiplicacao);
 
     scanner.close();
-    }
+    } 
 }
