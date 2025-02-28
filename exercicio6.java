@@ -15,3 +15,4 @@ public class exercicio6 {
         scanner.close();
     }
 }
+ 
