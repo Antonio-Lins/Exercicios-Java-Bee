@@ -11,7 +11,7 @@ public class exercicio13 {
 
         double pi = 3.14159;
 
-
+ 
         Double areaTriangulo = (A * C)/2;
         Double areaCirculo = ((C*C) * pi);
         Double areaQuadrado = ((A + B)*C)/2;
