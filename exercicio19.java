@@ -4,7 +4,7 @@ public class exercicio19 {
     public static void main(String[]args){
         Scanner scanner = new Scanner(System.in);
 
-        int N = scanner.nextInt();
+        int N = scanner.nextInt(); 
         int valorOriginal = N;
 
         int notas100 = N / 100;
