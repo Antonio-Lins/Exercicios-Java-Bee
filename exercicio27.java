@@ -7,7 +7,7 @@ public class exercicio27 {
         float N1 = scanner.nextFloat();
         float N2 = scanner.nextFloat();
         float N3 = scanner.nextFloat();
-        float N4 = scanner.nextFloat();
+        float N4 = scanner.nextFloat(); 
 
         float media = ((N1 *2) + (N2 * 3) + (N3 * 4) + (N4 * 1)) / 10;
         
