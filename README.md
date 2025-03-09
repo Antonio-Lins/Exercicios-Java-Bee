@@ -1,7 +1,7 @@
 # Repositório de Exercícios Java
 
 Este repositório contém uma coleção de exercícios em Java, organizados para prática e estudo. Os exercícios são numerados sequencialmente e estão em constante expansão conforme novos desafios são adicionados.
-
+ 
 ## Estrutura do Repositório
 - `exercício1.java`, `exercício2.java`, ...: Arquivos de código Java, cada um correspondendo a um exercício específico.
 
