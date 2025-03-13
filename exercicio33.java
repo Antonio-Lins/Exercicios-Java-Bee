@@ -10,18 +10,18 @@ public class exercicio33 {
 
         if (B > A) {
             int Duração = B - A;
-            System.out.printf("O JOGO DUROU %d HORA(S)" , Duração);
+            System.out.printf("O JOGO DUROU %d HORA(S)\n" , Duração);
         }
 
         
         else if (B < A) {
             int Duração = (hora - A) + B;
-            System.out.printf("O JOGO DUROU %d HORA(S)" , Duração);
+            System.out.printf("O JOGO DUROU %d HORA(S)\n" , Duração);
         }
 
         
         else if (B == A) {
-            System.out.printf("O JOGO DUROU 24 HORA(S)");
+            System.out.printf("O JOGO DUROU 24 HORA(S)\n");
         }
 
 
