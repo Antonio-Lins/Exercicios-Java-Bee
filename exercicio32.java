@@ -1,15 +1,21 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class exercicio32 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        double A = scanner.nextDouble();
-        double B = scanner.nextDouble();
-        double C = scanner.nextDouble();
+        double[] lados = new double[3];
+        lados[0] = scanner.nextDouble();
+        lados[1] = scanner.nextDouble();
+        lados[2] = scanner.nextDouble();
+
+        // ordenar os lados em ordem decrescente
+        Arrays.sort(lados);
+        double A = lados[2], B = lados[1], C = lados[0];
 
         // verificar se forma um triângulo
-        if (A + B <= C || A + C <= B || B + C <= A) {
+        if (A >= B + C) {
             System.out.println("NAO FORMA TRIANGULO");
         } else {
             // verificações de tipo de triângulo
